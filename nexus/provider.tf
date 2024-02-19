@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
         bucket = "vinod-tf-workspace"
-        key    = "alb-dev"
+        key    = "nexus-dev"
         region = "us-east-1"
         dynamodb_table = "vinod-tf-workspace"
   }
